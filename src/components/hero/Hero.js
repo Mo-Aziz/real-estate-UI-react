@@ -11,9 +11,9 @@ const Hero = () => {
           Search the largest selection of luxury high-rise houses and
           multi-family homes.
         </p>
-        <form>
+        <form className="search">
           <div>
-            <input type="search" placeholder="Enter Keywords..." />
+            <input type="text" placeholder="Enter Keywords..." />
           </div>
 
           <div className="radio">
